@@ -1,18 +1,22 @@
 
+################################################################################
+# Variables for this module
+################################################################################
+
 variable "aws_subnet_1" {
-  description = "Aws subnet 1 from network resource"
+  description              = "Aws subnet 1 from network resource"
 }
 
 variable "aws_subnet_2" {
-  description = "Aws subnet 2 from network resource"
+  description              = "Aws subnet 2 from network resource"
 }
 
 variable "aws_security_group_sg" {
-  description = "Aws security group from sg"
+  description              = "Aws security group from sg"
 }
 
 variable "aws_internet_gateway" {
-  description = "Aws internet gateway"
+  description              = "Aws internet gateway"
 }
 
 ################################################################################
